@@ -1,0 +1,57 @@
+/*# sourceMappingURL=main.css.map */
+
+.container {
+  width: 100%;
+}
+
+body {
+  background-color: rgba(26, 153, 153, 0);
+}
+
+table {
+  width: 300px;
+  border-color: aqua;
+}
+
+th {
+  text-align: left;
+  background-color: yellowgreen;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-color: rgb(228, 18, 18);
+}
+
+td {
+  background-color: brown;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+caption {
+  text-align: left;
+}
+
+img {
+  width: 300px;
+  margin-right: 200px;
+}
+
+p {
+  padding: 20px;
+  border-style: solid;
+}
+
+form {
+  text-align: left;
+}
+
+body {
+  background-image: url(animewallpaper.jpg);
+}
