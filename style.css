@@ -8,44 +8,51 @@ body {
   background-color: rgba(26, 153, 153, 0);
 }
 
-table {
-  width: 300px;
-  border-color: aqua;
-}
-
-th {
-  text-align: left;
-  background-color: yellowgreen;
-}
-
-table,
+.table1,
 th,
-td {
-  border: 1px solid;
-  border-color: rgb(228, 18, 18);
+td,
+tr {
+  border: 2px solid;
+  border-color: rgb(3, 19, 19);
 }
 
-td {
-  background-color: brown;
+#tb1,
+#tr {
+  background-color: rgb(243, 18, 18);
 }
 
-th,
-td {
-  padding: 10px;
+.table1,
+#tb2,
+#tr {
+  border: 2px solid;
+  background-color: rgb(170, 151, 185);
 }
 
 caption {
   text-align: left;
 }
 
-img {
-  width: 300px;
-  margin-right: 200px;
+.box {
+  border: solid;
 }
 
-p {
-  padding: 20px;
-  border-style: solid;
+.goyo {
+  background-color: cyan;
+}
+
+form {
+  text-align: left;
+}
+
+.secp {
+  border: solid;
+  padding: 0px;
+
+  margin: 10px;
+}
+
+ul {
+  text-align: center;
 }
 
 form {
@@ -53,5 +60,17 @@ form {
 }
 
 body {
-  background-image: url(animewallpaper.jpg);
+  background-image: url(villand.jpg_large);
+}
+#jjk,
+#bleach,
+#kmy {
+  float: left;
+  border: 2px solid;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#goyyo {
+  width: 400px;
 }
